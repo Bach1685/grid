@@ -25,4 +25,13 @@ module.exports = {
     filename: "[script].[contenthash].js",
     clean: true,
   },
+
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
