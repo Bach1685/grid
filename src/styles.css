@@ -1,18 +1,10 @@
 body {
   margin: 0;
-}
-
-.container {
-  background-color: rgb(65, 59, 59);
   display: grid;
-  gap: 10px 15px;
-  grid-template-columns: 200px 1fr minmax(100px, 500px);
-  grid-template-rows: 100px 120px;
-  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+  grid-template-rows: 100px 1fr 100px;
 }
 
-.container > * {
-  padding: 1rem;
-  border-radius: 15px;
-  background-color: rgb(109, 62, 62);
+body > * {
+  background-color: rgb(176, 106, 106);
 }
