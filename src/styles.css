@@ -1,29 +1,32 @@
-.wrapper {
+body {
+  color: white;
+}
+
+.container {
   display: grid;
-  gap: 10px;
-  background-color: blueviolet;
-  margin-top: 40px;
+  gap: 10px 20px;
+  grid-template: 500px 300px / 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
-.wrapper > div {
-  background: gray;
-  min-width: 100px;
-  min-height: 100px;
-  border: 1px solid black;
+.container > * {
+  padding: 1rem;
+  border-radius: 10px;
 }
 
-.item1 {
-  grid-column: 1 / 2;
+header {
+  background-color: green;
 }
 
-.item2 {
-  grid-column: 2 / 3;
+article {
+  background-color: black;
 }
 
-.item3 {
-  grid-column: 3 / 4;
+aside{
+  background-color: red;
 }
 
-.item4 {
-  grid-column: 4 / 5;
+footer {
+  background-color: rgb(90, 5, 236);
 }
