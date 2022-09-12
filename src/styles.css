@@ -6,8 +6,8 @@ body {
   display: grid;
   gap: 10px 20px;
   grid-template: 500px 300px / 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: center;
+  justify-items: center; /*start end center stretch*/
+  align-items: center;  /*start end center stretch*/
 }
 
 .container > * {
@@ -23,7 +23,7 @@ article {
   background-color: black;
 }
 
-aside{
+aside {
   background-color: red;
 }
 
